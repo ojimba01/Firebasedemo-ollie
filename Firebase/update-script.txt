@@ -1,0 +1,12 @@
+db.child("Phlask").child("phlask-web-map").child("phlask-web-map-prod").update({'phlask-web-map-prod-food': {
+                'phlask-web-map-prod-food-live': True,
+                'phlask-web-map-prod-food-verify': False,
+            },
+            'phlask-web-map-prod-foraging': {
+                'phlask-web-map-prod-foraging-live': True,
+                'phlask-web-map-prod-foraging-verify': False,
+            },
+            'phlask-web-map-prod-bathrooms': {
+                'phlask-web-map-prod-bathrooms-live': True,
+                'phlask-web-map-prod-bathrooms-verify': False,
+            }
